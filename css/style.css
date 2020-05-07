@@ -1,0 +1,479 @@
+body{
+    background-color:#dfdfdf!important;
+    background-position: 0 top;
+	height:100%;
+}
+* {
+    margin:0;
+	border:0;
+	padding:0;
+}
+
+html {
+	margin:0px!important;
+	font-size:16px;
+	color:#8c9193;
+	height:100%;
+	font-family: sans-serif;
+	
+}
+/*------Pjesa e headerit------*/
+
+.container{
+    width: 81%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.header{
+    height: 137px;
+}
+
+#logo img{
+	width: 127px;
+    height: 120px;
+    padding-left: 15px;
+}
+#navbar{
+    float: right;
+    width: 82%;
+    margin-top: 87px;
+}
+#navbar:hover{
+	background-color: red;
+}
+#navbar ul{
+    list-style-type: none;
+    background-color: #A9A9A9!important;
+    height: 46px;
+    padding-left: 10px;
+}
+#navbar ul li{
+    display: inline;
+}
+#navbar ul li a{
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    padding:10px 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+#navbar ul li:last-child a{
+    border-right: none;
+}
+#navbar ul li a:hover{
+	background-color: #cc0000;
+}
+/*--Perfundimi i headerit---- */
+ /*--Fillimi i pjeses me foto--*/
+.row1{
+	height: 180px;
+	width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.row1 img{
+	padding: 53px;
+	padding-left: 80px;
+    
+}
+.home-icon-container1 {
+width: 273px;
+height: 180px;
+float: left;
+border: 1px solid:#DCDCDC;
+background-color: #DCDCDC;
+}
+
+.home-icon-container2 {
+width: 273px;
+height: 180px;
+float: left;
+border: 1px solid:#D3D3D3;
+background-color: #D3D3D3;
+}
+.home-icon-container3{
+width: 273px;
+height: 180px;
+float: left;
+border: 1px solid:#C0C0C0;
+background-color: #C0C0C0;
+}
+.home-icon-container4{
+width: 273px;
+height: 180px;
+float: left;
+border: 1px solid:#A9A9A9;
+background-color: #A9A9A9;
+}
+
+.container2{
+	height: 400px;
+	width: 81%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+/*--Perfundimi i pjeses me foto--*/
+/* --Filli i rreshtit te trete, rreshti i informatave--*/
+
+#home-img img{
+	width: 450px;
+	height: 200px;
+	float:left;
+	margin-left: 20px;
+	margin-right: 63px;
+
+} 
+
+#text{
+	height: 180px;
+	width: 81%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+#content{
+	margin-left: 20px;
+	width: 300px;
+	float: left;
+}
+#content h3{
+	color: #696969;
+   
+}
+#content p{
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #696969;
+}
+#content a{
+	border: 5px solid  #cc0000;
+	background-color:  #cc0000;
+	font-family: sans-serif;
+	color: white;
+	padding: 5px;
+	margin-top: 10px;
+	text-decoration: none;
+	
+}
+#content2{
+	float: right;
+	margin-right: 163px;
+}
+#content2 h3{
+	color: #696969;
+   
+}
+#content2 p{
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #696969;
+}
+#content2 a{
+	border: 5px solid  #cc0000;
+	background-color:  #cc0000;
+	font-family: sans-serif;
+	color: white;
+	padding: 5px;
+	margin-top: 10px;
+	text-decoration: none;
+	
+}
+/*--Perfundimi i pjeses se informatave--*/
+/* --Fillimi i rreshtit te katert, orari i trajnimeve--*/
+#orari{
+	height: 350px;
+	width: 81%;
+    margin: 0 auto;
+    background-color: #fff;	
+}
+#trajnimet{
+	height: 350px;
+	width: 34%;
+	background-color: #D3D3D3;
+	float: left;
+
+}
+
+#trajnimet h3{
+    color: #696969;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+#trajnimet p{
+    font-size: 14px;
+	font-family: sans-serif;
+	color: #696969;
+	
+}
+#trajnimet a{
+text-decoration: none;
+}
+#trajnimet a:hover{
+	text-decoration: underline;
+	color: #b30000;
+}
+
+.cont1{
+	height: 350px;
+	width: 20%;
+	background-color: #D3D3D3;
+	float: left;
+
+}
+.cont1 img:first-child{
+	margin-top: 60px;
+	padding: 10px;
+}
+.cont1 img{
+	padding: 15px;
+}
+.cont2 {
+	height: 350px;
+	width: 80%;
+	background-color: #D3D3D3;
+	float: left;
+	
+}
+.boots1  {
+	margin-top: 30px;
+
+}
+.art1{
+	height: 350px;
+	width: 50%;
+	background-color: #BEBEBE;
+	float: left;
+}
+.art2{
+	height: 350px;
+	width: 50%;
+	background-color: #BEBEBE;
+	float: left;
+}
+#ekipi{
+    height: 350px;
+    width: 66%;
+    background-color: #BEBEBE;
+    float: right;
+}
+#ekipi img{
+	width: 72px;
+	height: 55px;
+	float: left;
+	padding: 20px;
+}
+.art1 a{
+	text-decoration: none;
+}
+.art2 a{
+	text-decoration: none;
+}
+#ekipi a:hover{
+  text-decoration: underline;
+  color: #b30000;
+}
+#ekipi h3{
+    color: #696969;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.pr1{
+	
+	width: 100%;
+	height: 100px;
+	margin-top: 30px;
+}
+.pr2{
+	
+	width: 100%;
+	height: 150px;
+}
+.pr3{
+	width: 100%;
+	height: 100px;
+	margin-top: 70px
+
+}
+.pr4{
+    width: 100%;
+	height: 150px;
+	float: left;
+}
+
+#ekipi p{
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #696969;
+	
+}
+/*--Perfundimi i rreshit te katert, orari i trajnimeve--*/
+ /*--Fillimi i pjese per studentet-->*/
+#row3{
+	height: 250px;
+	width: 81%;
+	margin: 0 auto;
+    background-color: #fff;
+}
+.fotoja1{
+	height: 250px;
+	width: 18%;
+	float: left;
+}
+.fotoja1 img{
+	width: 130px;
+	height: 170px;
+    border-radius: 55px;
+    border: 2px solid #cc0000;
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
+.studentet{
+	height: 250px;
+	width: 50%;
+	float:left;
+}
+.studentet h3{
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.studentet p{
+    font-size: 14px;
+	font-family: sans-serif;
+	color: #696969;
+}
+.studentet p:first-child{
+	margin-top: 30px;
+  margin-left: 60px;
+}
+.artikujt{
+	height: 250px;
+	width: 32%;
+	float: left;
+    
+}
+.artikujt h3{
+	margin-top: 20px;
+}
+.artikujt a{
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #696969;
+	text-decoration: none;
+}
+.artikujt a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+.foot1{
+	height: 100px;
+	width: 81%;
+    background-color: #b30000;
+    margin: 0 auto;
+}
+.input{
+    height: 100px;
+    width: 273px;
+    float:left;
+}
+.input input{
+	background-color: #b30000;
+    padding: 8px;
+    border: 2px solid white;
+    margin-top: 25px;
+    margin-left: 10px;
+    border-radius: 3px;
+
+}
+.input input:last-child{
+	background-color: white;
+    margin-left: 0px;
+}
+.telimg{
+	height: 60px;
+    width: 50px;
+    float:left;
+    margin-top:25px;
+    margin-left: 25px;
+}
+.telnr{
+	height: 100px;
+    width: 220px;
+    float:left;
+}
+.rrugaimg {
+	height: 60px;
+    width: 50px;
+    float:left;
+    margin-top:25px;
+}
+
+.rruga{
+    height: 100px;
+    width: 220px;
+    float:left;
+}
+
+.emailimg{
+    height: 60px;
+    width: 50px;
+    float:left;
+    margin-top:25px;
+}
+.email{
+    height: 100px;
+    width: 203px;
+    float: left;
+}
+ /*-- Perfundimi i pjeses me studentet--*/
+ /*--Fillimi i Footerit--*/
+.foot1 p{
+	color: white;
+	margin-top:25px;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+.hr{
+	height: 2px;
+	width: 81%;
+    background-color: white;
+    margin: 0 auto;
+}
+.footer{
+	height: 100px;
+	width: 81%;
+    background-color: #b30000;
+    margin: 0 auto;
+}
+.probit{
+	height: 100px;
+	width: 500px;
+	float: left;
+}
+.imgsoc{
+	height: 100px;
+	width: 590px;
+	float: left;
+}
+.imgsoc a{
+	float: right;
+	margin-top: 15px;
+	padding: 5px;
+}
+.probit p{
+	color: white;
+	margin-top:25px;
+	font-size: 14px;
+	font-family: sans-serif;
+	margin-left: 10px;
+
+}
+ /*--Perfundimi i footerit--*/
+
+
+
